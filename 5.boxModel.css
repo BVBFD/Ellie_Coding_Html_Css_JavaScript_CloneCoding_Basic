@@ -1,0 +1,26 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.inner {
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+
+.box2 {
+  padding: 20px;
+  box-sizing: content-box;
+  /* bontent-box basic standard */
+  border: 10px solid black;
+}
+
+.box3 {
+  padding: 20px;
+  box-sizing: border-box;
+  /* 100px에 padding, border 모두 포함하게 박스사이즈 결정 100px안에 모두 들어가게 된다. */
+  /* bontent-box basic standard */
+  border: 10px solid black;
+}

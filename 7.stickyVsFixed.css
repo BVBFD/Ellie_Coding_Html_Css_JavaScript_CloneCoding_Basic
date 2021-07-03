@@ -1,0 +1,25 @@
+.container {
+  position: relative;
+  top: 100px;
+  left: 100px;
+  background-color: beige;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+  background-color: chocolate;
+}
+
+.box2 {
+  background-color: hotpink;
+  position: sticky;
+  top: 0;
+  left: 0;
+  /* position이 static, relative나 sticky면 들어있는 박스 안에서 변경이 일어난다. */
+}
+
+.box3 {
+  background-color: blue;
+}

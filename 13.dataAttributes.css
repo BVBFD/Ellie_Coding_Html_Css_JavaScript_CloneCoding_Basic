@@ -1,0 +1,10 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: tomato;
+  margin-bottom: 50px;
+}
+
+div[data-display-name="dream"] {
+  background-color: beige;
+}

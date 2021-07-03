@@ -1,0 +1,31 @@
+:root {
+  --font-size: 32px;
+  --background-color: thistle;
+  --text-color: whitesmoke;
+  --base-space: 8px;
+}
+
+.first-list {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin-left: var(--base-space);
+}
+
+.first-list li {
+  font-size: var(--font-size);
+}
+
+.second-list {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin-left: calc(var(--base-space) * 2);
+  font-size: var(--font-size);
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --background-color: salmon;
+    --text-color: blue;
+    --base-space: 4px;
+  }
+}

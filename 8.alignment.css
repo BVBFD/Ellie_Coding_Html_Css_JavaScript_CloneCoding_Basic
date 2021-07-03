@@ -1,0 +1,36 @@
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: beige;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: blue;
+}
+
+.inner1 {
+  margin: auto;
+  /* div는 블록 레벨이여서 한줄에 하나씩만 원래 들어 갈수 있음. 그래서 자동적으로 마진이 들어간다. */
+  /* auto를 해주면 양쪽 골고루 마진을 넣어준다. */
+  /* 이런 마진은 한줄에 하나씩 그래서 수평만 적용 가능 수직 No */
+}
+
+.box2 {
+  text-align: center;
+  /* text-align은 텍스트가 아니더라도 다른 요소를 정렬할 수 있지만 div같은 경우 한줄에 하나씩만 나오게 하기 때문에 마진이 들어있어서 정상적으로 되지 않는다. */
+  /* block레벨이 아닌 요소들은 text-align을 통해서 정렬이 가능하다. */
+}
+
+.inner3 {
+  transform: translate(50%, 50%);
+  /* x축에서 50%, y축에서 50% */
+}
+
+.box4 h1 {
+  text-align: center;
+  line-height: 100px;
+  /* 부모 높이만큼 line-height을 주면 텍스트 중앙으로 오게 됨 */
+  /* line-height은 텍스트 상자 높이가 100px 만큼되는 것이다 정의 해주는 것 */
+}
