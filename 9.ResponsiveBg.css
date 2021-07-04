@@ -17,6 +17,7 @@
   /* https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Backgrounds_and_Borders/Resizing_background_images */
   /* 간단히 말해서 contain은 들어가게 끔 하는 것이고 cover는 요소로 배경화면 덮는다 생가해라 */
   resize: both;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/resize */
   overflow: scroll;
 }
 

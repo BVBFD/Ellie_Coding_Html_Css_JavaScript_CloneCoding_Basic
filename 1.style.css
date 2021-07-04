@@ -10,6 +10,7 @@ div {
   display: inline;
   /* inline은 컨텐츠(내용의 크기에 맟춰서) 자체만을 꾸며줌  내용크기에 맞추기 때문에 우리가 정의한 width, height, margin(상하만 반영), padding(상하만 반영) 무시 */
   /* inline-block(한 줄에 다 넣는데 블락단위로 상자로 변환해서 넣는다, 한줄당 여러개의 박스), block(한줄당 하나의 박스) 박스 상자를 꾸며줌 */
+  /* block 본성, inline-block 본성 한줄, inline 한줄 컨텐츠 크기 */
 }
 
 span {
